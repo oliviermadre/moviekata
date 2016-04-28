@@ -14,4 +14,5 @@ $rental = new Rental($movie, 3);
 $customer = new Customer("jpartogi");
 $customer->addRental($rental);
 $statement = $customer->statement();
+
 print_r( $statement );
